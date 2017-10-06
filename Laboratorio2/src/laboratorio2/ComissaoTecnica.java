@@ -9,6 +9,14 @@ package laboratorio2;
  *
  * @author Joyce Mikaella
  */
-public class ComissaoTecnica {
-    
+public class ComissaoTecnica extends Funcionario {
+  private  String funcao;
+
+    public String getFuncao() {
+        return funcao;
+    }
+
+    public void setFuncao(String funcao) {
+        this.funcao = funcao;
+    }
 }

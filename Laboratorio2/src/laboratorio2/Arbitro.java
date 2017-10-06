@@ -9,6 +9,24 @@ package laboratorio2;
  *
  * @author Joyce Mikaella
  */
-public class Arbitro {
+public class Arbitro extends Partida {
+    private String nome , funcao;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getFuncao() {
+        return funcao;
+    }
+
+    public void setFuncao(String funcao) {
+        this.funcao = funcao;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
     
 }
