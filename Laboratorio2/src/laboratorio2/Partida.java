@@ -12,8 +12,11 @@ package laboratorio2;
  * @author Joyce Mikaella
  */
 public class Partida {
+ private Date data ;
+ private Date hora;
   private Arbitro juizes[] = new Arbitro[5];
-    int quantidadeArbitro=0;
+    private int quantidadeArbitro=0;
+
 
 	
 
@@ -26,4 +29,28 @@ public class Partida {
         this.juizes[this.quantidadeArbitro] = juizes;
         this.quantidadeArbitro++;
     }  
+
+    public Date getData() {
+        return data;
+    }
+
+    public void setData(Date data) {
+        this.data = data;
+    }
+
+    public Date getHora() {
+        return hora;
+    }
+
+    public void setHora(Date hora) {
+        this.hora = hora;
+    }
+
+    public int getQuantidadeArbitro() {
+        return quantidadeArbitro;
+    }
+
+    public void setQuantidadeArbitro(int quantidadeArbitro) {
+        this.quantidadeArbitro = quantidadeArbitro;
+    }
 }

@@ -14,7 +14,7 @@ public class Clube extends Partida {
     
   
     private Funcionario funcionario[]= new Funcionario[50];
-    int quantidadeFuncionario=0;
+    private int quantidadeFuncionario=0;
     
     public Funcionario[] getFuncionario() {
         return funcionario;
@@ -47,6 +47,14 @@ public class Clube extends Partida {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public int getQuantidadeFuncionario() {
+        return quantidadeFuncionario;
+    }
+
+    public void setQuantidadeFuncionario(int quantidadeFuncionario) {
+        this.quantidadeFuncionario = quantidadeFuncionario;
     }
 
 

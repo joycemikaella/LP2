@@ -10,8 +10,9 @@ package laboratorio2;
  * @author Joyce Mikaella
  */
 public class Funcionario extends Clube {
-    String nome, cpf;
-    double salario;
+    private String nome;
+    private String cpf;
+    private double salario;
 
     public String getNome() {
         return nome;
