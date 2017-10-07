@@ -20,16 +20,28 @@ public void brincar (){
      
         Gato cat1 = new Gato();
         cat1.setRaca("Siamês");
+        cat1.setNome ("Prince");
+                       
+ System.out.println("RAÇA GATO: " + cat1.getRaca());  
+ System.out.println("NOME GATO: " + cat1.getNome()); 
+ 
         cat1.setPatas(4);
         cat1.caminha();
         cat1.come();
-        cat1.setNome ("Prince");
-        ;
-        
-                
- System.out.println("RAÇA : " + cat1.getRaca());  
- System.out.println("NOME : " + cat1.getNome());  
+       
  
+        Cachorro dog1 = new Cachorro();
+        dog1.setRaca("Pastor Alemão");
+        dog1.setNome ("Loretta");
+        System.out.println("RAÇA CACHORRO: " + dog1.getRaca());  
+        System.out.println("NOME CACHORRO : " + dog1.getNome()); 
+        dog1.setPatas(0);
+        dog1.caminha();
+        dog1.come();
+        
+        
+ 
+
     }
     
 }
